@@ -3,6 +3,7 @@
 import praw
 
 def top_ten(subreddit):
+    """ prints the titles of the first 10 hot posts listed in a subreddit """
     try:
         reddit = praw.Reddit(client_id='your_client_id',
                              client_secret='your_client_secret',
